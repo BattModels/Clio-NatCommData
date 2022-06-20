@@ -12,3 +12,5 @@
   + DMC_cosolvent_ratio - how much of non-EC mass in electrolyte being tested is dimethyl carbonate (DMC) instead of ethylmethyl carbonate (EMC)
   + sampling - random vs bayesian optimizer led experiment (RAND or BO)
   + expt_time - length of experiment run-time
++ *AEM_training_data*: CSV with data from the Advanced Electrolyte Model, matching design space surveyed above. Columns have same meaning as above.
++ *Simulated Optimizations*: pkl files with each simulated optimization run to compare Bayesian optimizer against random sampling for calculation of acceleration/enhancement
